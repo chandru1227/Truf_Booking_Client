@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 const ImageSliderHome = () => {
     const images = [
-        'versus-1',
-        'versus-2',
-        'versus-3',
-        'versus-4',
-        'versus-5',
-        'versus-6',
+        'https://turftown.in/_next/image?url=https%3A%2F%2Fturftown.s3.ap-south-1.amazonaws.com%2Fsuper_admin%2Ftt-1705863607493.webp&w=828&q=75',
+        'https://content.jdmagicbox.com/comp/pondicherry/u2/0413px413.x413.220302161749.j5u2/catalogue/-awxba6ogqk-250.jpg',
+        'https://5.imimg.com/data5/SELLER/Default/2023/10/350327019/NU/WB/TZ/38215148/7-a-side-football-turf.jpg',
+        'https://turftown.s3.ap-south-1.amazonaws.com/super_admin/tt-1738650204021.webp',
+        'https://trackandturf.com/wp-content/uploads/2023/10/soccer-ball-in-center-of-turf-field.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9O22x3XOqFIaurrJktKvQj2b_vHWX_sPyAQ&s',
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

@@ -9,7 +9,7 @@ import GroundDetails from './pages/GroundDetails';
 import Bookings from './pages/Bookings';
 import Grounds from './pages/Grounds';
 import HomePage from './components/HomePage';
-import Layout from './Layout'; // Import the Layout component
+import Layout from './Layout';
 import LandingHome from './pages/LandingHome';
 function App() {
 
