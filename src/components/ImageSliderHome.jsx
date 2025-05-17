@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 
 const ImageSliderHome = () => {
     const images = [
-    'versus-1',
-    'versus-2',
-    'versus-3',
-    'versus-4',
-    'versus-5',
-    'versus-6',
-];
+        'versus-1',
+        'versus-2',
+        'versus-3',
+        'versus-4',
+        'versus-5',
+        'versus-6',
+    ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
