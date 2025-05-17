@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ImageSliderHome = () => {
     const images = [
-        'versus 1',
+        'versus-1',
         'versus 2',
         'versus 3',
         'versus 4',
@@ -38,7 +38,7 @@ const ImageSliderHome = () => {
             {images.map((image, index) => (
                 <img
                     key={index}
-                    src={`../../public/images/${image}.jpg`}
+                    src={`/images/${image}.jpg`}
                     alt={`Image ${index + 1}`}
                     className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
                 />
