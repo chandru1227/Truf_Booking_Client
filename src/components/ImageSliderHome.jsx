@@ -37,7 +37,7 @@ const ImageSliderHome = () => {
             {images.map((image, index) => (
                 <img
                     key={index}
-                    src={`/images/${image}.jpg`}
+                    src={`/${image}.jpg`}
                     alt={`Image ${index + 1}`}
                     className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
                 />
