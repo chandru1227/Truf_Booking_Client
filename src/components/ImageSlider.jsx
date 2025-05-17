@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ImageSlider = (props) => {
     const images = [
-        'versus-1',
+        'https://turftown.in/_next/image?url=https%3A%2F%2Fturftown.s3.ap-south-1.amazonaws.com%2Fsuper_admin%2Ftt-1705863607493.webp&w=828&q=75',
         'versus-2',
         'versus-3',
         'versus-4',
@@ -38,7 +38,7 @@ const ImageSlider = (props) => {
             {images.map((image, index) => (
                 <img
                     key={index}
-                    src={`/images/${image}.jpg`}
+                    src={image}
                     alt={`Image ${index + 1}`}
                     className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'}`}
                 />
